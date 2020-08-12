@@ -1,5 +1,4 @@
-import cloneDeep from 'lodash.clonedeep';
-import isEqual from 'lodash.isequal';
+import {isEqual, cloneDeep} from 'lodash-es';
 
 interface AttributeMap {
   [key: string]: any;
