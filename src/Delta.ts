@@ -5,7 +5,7 @@ import Op from './Op';
 
 const NULL_CHARACTER = String.fromCharCode(0); // Placeholder char for embed in diff()
 
-class Delta {
+export default class Delta {
   static Op = Op;
   static AttributeMap = AttributeMap;
 
@@ -449,5 +449,3 @@ class Delta {
     return index;
   }
 }
-
-export = Delta;

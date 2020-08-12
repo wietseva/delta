@@ -6,10 +6,11 @@
   "homepage": "https://github.com/quilljs/delta",
   "main": "dist/Delta.js",
   "dependencies": {
-    "fast-diff": "1.2.0",
+    "fast-diff": "^1.2.0",
     "lodash-es": "^4.17.15"
   },
   "devDependencies": {
+    "@types/fast-diff": "^1.2.0",
     "@types/lodash-es": "^4.17.3",
     "@types/lodash.clonedeep": "^4.5.0",
     "@types/lodash.isequal": "^4.5.0",
