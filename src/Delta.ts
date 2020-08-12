@@ -1,6 +1,5 @@
 import diff from 'fast-diff';
-import cloneDeep from 'lodash.clonedeep';
-import isEqual from 'lodash.isequal';
+import {cloneDeep, isEqual} from 'lodash-es';
 import AttributeMap from './AttributeMap';
 import Op from './Op';
 
